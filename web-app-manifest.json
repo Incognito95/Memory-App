@@ -10,8 +10,8 @@
     ],
     "theme-color": "#9E9E9E",
     "background-color": "#9E9E9E",
-    "scope": "xxxx/Memory App"
-    "start-url": "xxxx/Memory App/index.html",
+    "scope": "https://incognito95.github.io/Memory-App-updated-/Memory App"
+    "start-url": "https://incognito95.github.io/Memory-App-updated-/index.html",
     "display": "standalone",
     "orientation": "portrait",
 }
