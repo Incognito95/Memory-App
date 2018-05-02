@@ -96,7 +96,7 @@ function twotiles(tiles) {
 function fliptile(event) {
     alert("hej")
     var tiles = Array.from(board.querySelectorAll('section'));
-    if (event.target !== event.currentTarget) {
+    if (event.target !== event.currentTarget && event.touches.length === 1) {
         console.log(event.target.parentNode.classList.contains('flipped'))
         if (!event.target.parentNode.classList.contains('flipped')) {
         event.target.parentNode.classList.add('flipped');
@@ -117,5 +117,5 @@ function scoreBoard () {
 }
 
     document.getElementById('playGame').addEventListener('submit', drawBoard);
-    board.addEventListener('touchend', fliptile);
+    board.addEventListener('touchstart', fliptile);
     document.getElementById('message').querySelector('button').addEventListener('click', newGame)}
