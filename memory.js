@@ -29,7 +29,6 @@ Array.prototype.doubleShuffle = function () {
 }
 
 function drawBoard(event) {
-    alert("hej")
     event.preventDefault();
     document.getElementById('welcome').style.display = 'none';
     board.style.display = 'flex';
